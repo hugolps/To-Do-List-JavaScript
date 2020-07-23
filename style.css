@@ -1,0 +1,115 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+main {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-titulo {
+    display: flex;
+    color: #f2CC8C;
+    align-items: center;
+    background-color: #3F6A8A;
+}
+
+.h1-titulo {
+    padding-left: 20px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1e6c1;
+    border-top: 10px solid #dda5b6;
+    padding: 20px 35px;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1e6c1;
+    padding: 10px;
+    margin: 0;
+
+}
+.tarefa {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #3F6A8A;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px 20px;
+}
+
+.checkbox {
+    padding-left: 0;
+    appearance: none;
+    border: #dda5b6;
+}
+
+.input {
+    color: #3F6A8A;
+    font-size: 20px;
+    font-style: italic;
+    outline: none;
+    border: none;
+    width: 90%;
+    background-color: #fdebf0;
+}
+
+
+.botao-enviar {
+    width: 100px;
+    color: #3F6A8A;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #dda5b6;
+    padding: 10px 20px;
+    outline: none;
+    transition: background-color .5s ease;
+}
+
+.botao-enviar:hover{
+    background-color: #de7a98;
+    color: #3F6A8A;
+}
+
+.botao-deletar {
+    width: 100px;
+    color: #3F6A8A;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fdebf0;
+    padding: 10px 10px;
+    outline: none;
+    transition: background-color .5s ease;
+}
+
+.botao-deletar:hover{
+    background-color: #de7a98;
+    color: #3F6A8A;    
+}
+
+.conteudo {
+    margin: 0;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
